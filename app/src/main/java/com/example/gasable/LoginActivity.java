@@ -45,7 +45,8 @@ public class LoginActivity extends AppCompatActivity {
                         //User Logged in Failed
                         Toast.makeText(LoginActivity.this, "Failed to log in , please try again", Toast.LENGTH_SHORT).show();
 
-
+//                        Intent intent = new Intent(LoginActivity.this, CylinderActivity.class);
+//                        startActivity(intent);
                     }
 
                 }
